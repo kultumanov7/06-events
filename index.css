@@ -1,0 +1,22 @@
+.message {
+    background-color: lightblue;
+    border: 0.5px solid lightgray;
+    margin-bottom: 5px;
+    border-radius: 12px;
+    font-size: 45px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.close {
+    color: red;
+    font-size: 45px;
+    background-color: lightblue;
+    border: none;
+}
+
+.close:hover {
+    border: 0.3px dashed blue;
+    cursor: pointer;
+}
